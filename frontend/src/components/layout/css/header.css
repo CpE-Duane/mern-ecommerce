@@ -1,0 +1,30 @@
+.header {
+     height: 4rem;
+     position: fixed;
+     top: 0;
+     font-size: 17px;
+     text-transform: uppercase;
+     box-shadow: 0 8px 6px -6px gray;
+     --webkit-box-shadow: 0 8px 6px -6px gray;
+     border-bottom: 0.3px solid gray;
+     font-family: 'Poppins', sans-serif;
+     background-color: #fff;
+}
+
+
+.nav-item {
+     padding: 0 12px;
+     font-weight: bold;
+}
+
+.header .active {
+     color: var(--text-pink) !important;
+     border-bottom: 2px solid var(--text-pink);
+     background-color: #fff !important;
+}
+
+.header .nav-link:hover {
+     color: var(--text-pink) !important;
+}
+
+

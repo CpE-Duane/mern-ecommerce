@@ -1,0 +1,24 @@
+.footer {
+     height: 8rem;
+     position: fixed;
+     bottom: 0;
+     color: #fff;
+     background: linear-gradient(to right, #434343, #000);
+     font-family: 'Poppins', sans-serif;
+}
+
+.footer a {
+     text-decoration: none;
+     color: #fff;
+     padding: 10px;
+}
+
+.footer .active {
+     border-bottom: 2px solid var(--text-pink);
+     color: var(--text-pink);
+}
+
+.footer a:hover {
+     color: var(--text-pink);
+}
+

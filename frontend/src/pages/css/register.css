@@ -1,0 +1,45 @@
+.register {
+     background-image: linear-gradient(0deg, aliceblue 0%, gray 100%);
+}
+
+.eye {
+     right: 0;
+     cursor: pointer;
+}
+.register label, .register button {
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
+}
+
+.register h2 {
+     font-family: 'Rubik Wet Paint', cursive;
+}
+
+.register input {
+     background-color: aliceblue;
+     font-family: 'Roboto', sans-serif;
+}
+
+.register input:focus {
+     background-color: aliceblue;
+     border: none !important;
+     outline: red !important;
+}
+
+.register button:hover {
+     background-color: var(--text-pink);
+     border: none;
+}
+
+.register a {
+     text-decoration: none;
+}
+
+.register a:hover {
+     color: var(--text-pink) !important;
+}
+
+
+
+
+
